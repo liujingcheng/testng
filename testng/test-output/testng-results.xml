@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Include All SubPackages Suite" duration-ms="72" started-at="2017-07-30T03:27:36Z" finished-at="2017-07-30T03:27:36Z">
+    <groups>
+    </groups>
+    <test name="Include All SubPackages Test" duration-ms="72" started-at="2017-07-30T03:27:36Z" finished-at="2017-07-30T03:27:36Z">
+      <class name="test.secondpackage.SecondTestClass">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:test.secondpackage.SecondTestClass@4c11ba7f]" name="firstTest" duration-ms="1" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:test.secondpackage.SecondTestClass@4c11ba7f]" name="secondTest" duration-ms="2" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- test.secondpackage.SecondTestClass -->
+      <class name="test.thirdpackage.FirstTestClass">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:test.thirdpackage.FirstTestClass@1feb0edd]" name="firstTest" duration-ms="1" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:test.thirdpackage.FirstTestClass@1feb0edd]" name="secondTest" duration-ms="1" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- test.thirdpackage.FirstTestClass -->
+      <class name="test.secondpackage.FirstTestClass">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:test.secondpackage.FirstTestClass@717f0c8f]" name="firstTest" duration-ms="1" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:test.secondpackage.FirstTestClass@717f0c8f]" name="secondTest" duration-ms="1" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- test.secondpackage.FirstTestClass -->
+      <class name="test.firstpackage.FirstTestClass">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:test.firstpackage.FirstTestClass@366953d]" name="firstTest" duration-ms="8" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:test.firstpackage.FirstTestClass@366953d]" name="secondTest" duration-ms="5" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- test.firstpackage.FirstTestClass -->
+      <class name="test.thirdpackage.SecondTestClass">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:test.thirdpackage.SecondTestClass@11cdf8a]" name="firstTest" duration-ms="2" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:test.thirdpackage.SecondTestClass@11cdf8a]" name="secondTest" duration-ms="2" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- test.thirdpackage.SecondTestClass -->
+      <class name="test.firstpackage.SecondTestClass">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:test.firstpackage.SecondTestClass@7bc1d0fa]" name="firstTest" duration-ms="2" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:test.firstpackage.SecondTestClass@7bc1d0fa]" name="secondTest" duration-ms="1" started-at="2017-07-30T11:27:36Z" finished-at="2017-07-30T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- test.firstpackage.SecondTestClass -->
+    </test> <!-- Include All SubPackages Test -->
+  </suite> <!-- Include All SubPackages Suite -->
+</testng-results>

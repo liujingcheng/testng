@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regular Exp Exclude Suite" verbose="1">
+  <test name="Regular Exp Exclude Test">
+    <classes>
+      <class name="test.regularexppackage.RegularExpClass">
+        <methods>
+          <exclude name="exclude.*" />
+		</methods>
+      </class>
+    </classes>
+  </test>
+</suite>

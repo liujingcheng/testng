@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="First Suite" duration-ms="80" started-at="2017-08-03T15:29:11Z" finished-at="2017-08-03T15:29:11Z">
+    <groups>
+      <group name="testOne">
+        <method signature="TestClass.testOneMethod()[pri:0, instance:test.beforeafter.TestClass@3bbd06b0]" name="testOneMethod" class="test.beforeafter.TestClass"/>
+      </group> <!-- testOne -->
+      <group name="testTwo">
+        <method signature="TestClass.testTwoMethod()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="testTwoMethod" class="test.beforeafter.TestClass"/>
+      </group> <!-- testTwo -->
+    </groups>
+    <test name="First Test" duration-ms="21" started-at="2017-08-03T15:29:11Z" finished-at="2017-08-03T15:29:11Z">
+      <class name="test.beforeafter.TestClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.beforeafter.TestClass@3bbd06b0]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeGroupOne()[pri:0, instance:test.beforeafter.TestClass@3bbd06b0]" name="beforeGroupOne" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroupOne -->
+        <test-method status="PASS" signature="testOneMethod()[pri:0, instance:test.beforeafter.TestClass@3bbd06b0]" name="testOneMethod" duration-ms="4" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.beforeafter.TestClass@3bbd06b0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.beforeafter.TestClass@3bbd06b0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterGroupOne()[pri:0, instance:test.beforeafter.TestClass@3bbd06b0]" name="afterGroupOne" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroupOne -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.beforeafter.TestClass@3bbd06b0]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.beforeafter.TestClass@3bbd06b0]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.beforeafter.TestClass -->
+    </test> <!-- First Test -->
+    <test name="Second Test" duration-ms="7" started-at="2017-08-03T15:29:11Z" finished-at="2017-08-03T15:29:11Z">
+      <class name="test.beforeafter.TestClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeGroupTwo()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="beforeGroupTwo" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroupTwo -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testTwoMethod()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="testTwoMethod" duration-ms="1" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterGroupTwo()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="afterGroupTwo" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroupTwo -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.beforeafter.TestClass@3b7541a]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-08-03T23:29:11Z" finished-at="2017-08-03T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.beforeafter.TestClass -->
+    </test> <!-- Second Test -->
+  </suite> <!-- First Suite -->
+</testng-results>
