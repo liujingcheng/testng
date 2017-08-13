@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Quiz test Suite" verbose="1">
+    <parameter name="param1-non-optional" value="param1 passed from xml" />
+  <test name="Quiz Test one">
+    <classes>
+      <class name="test.parameter.QuizTest" />
+    </classes>
+  </test>
+  <test name="Quiz Test two">
+    <parameter name="param1-non-optional" value="param1 passed from xml" />
+    <parameter name="param2-optional" value="param2 passed from xml" />
+    <classes>
+      <class name="test.parameter.QuizTest" />
+    </classes>
+  </test>
+</suite>
