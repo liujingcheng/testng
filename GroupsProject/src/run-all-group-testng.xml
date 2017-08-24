@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="run all group" verbose="1">
+  <test name="run all group">
+    <groups>
+      <run>
+        <include name=".*test.*" />
+      </run>
+    </groups>
+    <classes>
+      <class name="test.groups.RegularExpressionGroup" />
+	</classes>
+  </test>
+</suite>
