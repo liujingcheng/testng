@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Factory suite" verbose="1"  >
+  <test name="Factory test" group-by-instances="true">
+    <classes>
+      <class name="test.factory.DependencyFactory" />
+    </classes>
+  </test>
+</suite>
+
