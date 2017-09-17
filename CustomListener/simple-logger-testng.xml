@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Simple Logger Suite">
+ <listeners>
+  <listener class-name="test.logger.CustomLogging" />
+ </listeners>
+ 
+ <test name="Simple Logger test">
+  <classes>
+   <class name="test.sample.SampleTest"></class>
+  </classes>
+ </test>
+
+</suite>
