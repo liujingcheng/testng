@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<project name="Sample Report" default="junit-report" basedir=".">
+ <property name="junit-xml-dir" value="${basedir}/test-output/junitreports" />
+ <property name="report-dir" value="${basedir}/html-report" />
+ <target name="junit-report">
+  <delete dir="${report-dir}" failonerror="false" />
+  <mkdir dir="${report-dir}/Junit" />
+  <junitreport todir="${report-dir}/Junit">
+   <fileset dir="${junit-xml-dir}">
+    <include name="**/*.xml" />
+   </fileset>
+   <report format="noframes" todir="${report-dir}/Junit" />
+  </junitreport>
+ </target>
+</project>
